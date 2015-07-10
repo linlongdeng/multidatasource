@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Oh, 我们出错了</title>
+</head>
+<body>
+	<div
+		th:text="'时间:' + ${timestamp} + ', 错误类型:' + ${error} + ', 错误内容:' + ${message}+ ', 状态:'+ ${status}+ 
+		', 请求路径:' +${path} "  >Oh, 我们出错了</div>
+</body>
+</html>

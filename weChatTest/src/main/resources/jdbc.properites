@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:mysql://192.168.73.143/wjdbcenter?zeroDateTimeBehavior=convertToNull
+spring.datasource.username=root
+spring.datasource.password= root..admin
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+spring.datasource2.url=jdbc:mysql://192.168.73.143/wjdbhistory?zeroDateTimeBehavior=convertToNull
+spring.datasource2.username=root
+spring.datasource2.password=root..admin
+spring.datasource2.driver-class-name=com.mysql.jdbc.Driver
+
+
+
+
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.namingStrategy=weChat.core.jpa.CustomNameNameingStrategy
